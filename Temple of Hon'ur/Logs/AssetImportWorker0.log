@@ -1,0 +1,342 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'da' Physical Memory: 16279 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/simon/Desktop/Temple-of-Hon-ur/Temple of Hon'ur
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59670
+Successfully changed project path to: C:/Users/simon/Desktop/Temple-of-Hon-ur/Temple of Hon'ur
+C:/Users/simon/Desktop/Temple-of-Hon-ur/Temple of Hon'ur
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 80.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/simon/Desktop/Temple-of-Hon-ur/Temple of Hon'ur/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002714 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+HDRP Internally changed the storage of Cube Cookie to use Octahedral Projection inside the 2D Cookie Atlas. It is recommended that you increase the size of the 2D Cookie Atlas if your cookies no longer fit.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__110_12 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:126)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationDescription.cs:101)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable () (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:146)
+UnityEngine.Rendering.GraphicsSettings:get_currentRenderPipeline ()
+UnityEditor.Rendering.HighDefinition.HDBakedReflectionSystem:Initialize () (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Editor/Lighting/Reflection/HDBakedReflectionSystem.cs:42)
+
+(Filename: C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs Line: 126)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3341 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.8 MB.
+System memory in use after: 167.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3799.
+Total: 3.435700 ms (FindLiveObjects: 0.435000 ms CreateObjectMapping: 0.256200 ms MarkObjects: 2.633300 ms  DeleteObjects: 0.110300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b349e04c90c4c37d59f8b8f3977080') in 0.045594 seconds
+  Import took 0.054083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.440518 seconds.
+  path: Assets/Simon/Simon_Scene.unity
+  artifactKey: Guid(37cfd8b283a1b6146ac11696e82b059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Simon_Scene.unity using Guid(37cfd8b283a1b6146ac11696e82b059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1a78a54bb5df2c9c78137e04ce607c') in 0.002355 seconds
+  Import took 0.007692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004268 seconds.
+  path: Assets/Simon/Simon_Scene.unity
+  artifactKey: Guid(37cfd8b283a1b6146ac11696e82b059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Simon_Scene.unity using Guid(37cfd8b283a1b6146ac11696e82b059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1a78a54bb5df2c9c78137e04ce607c') in 0.002149 seconds
+  Import took 0.007283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.136553 seconds.
+  path: Assets/Simon/RockUnity.obj
+  artifactKey: Guid(dfd53acded5437a4599e89fd9bb5e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/RockUnity.obj using Guid(dfd53acded5437a4599e89fd9bb5e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+ -> (artifact id: '833af3bf03ea8a5e999a1536f4d0e948') in 1.455522 seconds
+  Import took 1.463443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045010 seconds.
+  path: Assets/Simon/RockUnity.obj
+  artifactKey: Guid(dfd53acded5437a4599e89fd9bb5e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/RockUnity.obj using Guid(dfd53acded5437a4599e89fd9bb5e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833af3bf03ea8a5e999a1536f4d0e948') in 0.049749 seconds
+  Import took 0.056498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.352915 seconds.
+  path: Assets/Simon
+  artifactKey: Guid(da5b9041cde449644ab60492e29c8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon using Guid(da5b9041cde449644ab60492e29c8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a386e72a88ff6f8e9fa22d81339032ac') in 0.002338 seconds
+  Import took 0.008727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Simon
+  artifactKey: Guid(da5b9041cde449644ab60492e29c8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon using Guid(da5b9041cde449644ab60492e29c8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a386e72a88ff6f8e9fa22d81339032ac') in 0.001959 seconds
+  Import took 0.007884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.342230 seconds.
+  path: Assets/Simon/Allbedo.png
+  artifactKey: Guid(46a05d1db5ca1db44b4549b371818320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Allbedo.png using Guid(46a05d1db5ca1db44b4549b371818320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346c7c56b499e6b2cc8c46efa37dd87e') in 0.059704 seconds
+  Import took 0.066414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Simon/Normal.png
+  artifactKey: Guid(0bcb1537567d92d45964dd6692ff3fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Normal.png using Guid(0bcb1537567d92d45964dd6692ff3fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f63de063e0597e79f9ea5031d2cc6a') in 0.013097 seconds
+  Import took 0.019633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Simon/Mask.png
+  artifactKey: Guid(2b565b188df829d4b830c51882754a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Mask.png using Guid(2b565b188df829d4b830c51882754a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4352616eb1fdd406c031f358d7c6a1b3') in 0.025105 seconds
+  Import took 0.034993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.358699 seconds.
+  path: Assets/Simon/Rock.mat
+  artifactKey: Guid(0b356e338c7632d44b15da834ceccecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Rock.mat using Guid(0b356e338c7632d44b15da834ceccecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236f7273a32c3a24249b2d2b34e1e829') in 0.081462 seconds
+  Import took 0.096463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.665054 seconds.
+  path: Assets/Simon/Retopology_Rock_Low_PM3D_Rock3_3-Decimatet_default_BaseMap.png
+  artifactKey: Guid(4562857efb9f9a14a827e53a23988ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Retopology_Rock_Low_PM3D_Rock3_3-Decimatet_default_BaseMap.png using Guid(4562857efb9f9a14a827e53a23988ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5bbea3da9b5ea4e59f579933718a62') in 0.016340 seconds
+  Import took 0.024264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Simon/Retopology_Rock_Low_PM3D_Rock3_3-Decimatet_default_MaskMap.png
+  artifactKey: Guid(cc1fb34be80f3c44e8d41b17b0197e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Retopology_Rock_Low_PM3D_Rock3_3-Decimatet_default_MaskMap.png using Guid(cc1fb34be80f3c44e8d41b17b0197e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d59fd9b3f2111e6cdbabb8372eb702') in 0.016116 seconds
+  Import took 0.023860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Simon/Retopology_Rock_Low_PM3D_Rock3_3-Decimatet_default_Specular.png
+  artifactKey: Guid(af52cc464c96d6845b677b2d7edfbb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Retopology_Rock_Low_PM3D_Rock3_3-Decimatet_default_Specular.png using Guid(af52cc464c96d6845b677b2d7edfbb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb119c981ed6a666aadc8755cd042d75') in 0.011201 seconds
+  Import took 0.018806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Simon/Retopology_Rock_Low_PM3D_Rock3_3-Decimatet_default_Normal.png
+  artifactKey: Guid(261a7c6b74c353f4c9893ef7b5759075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Retopology_Rock_Low_PM3D_Rock3_3-Decimatet_default_Normal.png using Guid(261a7c6b74c353f4c9893ef7b5759075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85ac314f029aadb4f7d0421a51df1a2') in 0.014651 seconds
+  Import took 0.020726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 172.125339 seconds.
+  path: Assets/GreyboxAssets/Fire_Monument.fbx
+  artifactKey: Guid(e8be593356ac7544b88d1e5ae96ea9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Fire_Monument.fbx using Guid(e8be593356ac7544b88d1e5ae96ea9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105e0dfa9863773c39a4b380b372e330') in 0.055536 seconds
+  Import took 0.061893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/GreyboxAssets/TreeSliced.fbx
+  artifactKey: Guid(5c25fd9ee90dad04d9838964c3fc6b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/TreeSliced.fbx using Guid(5c25fd9ee90dad04d9838964c3fc6b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e5452cfd578fb48dd19ca9039de0f2') in 0.044583 seconds
+  Import took 0.051214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/GreyboxAssets/Rock1.fbx
+  artifactKey: Guid(4ad82afc44090494490514b96dd2b9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Rock1.fbx using Guid(4ad82afc44090494490514b96dd2b9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba362e1382d9062f59887fbf11ddf1a') in 0.050613 seconds
+  Import took 0.055875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/GreyboxAssets/StairsSliced.fbx
+  artifactKey: Guid(964d65b44ae2ec84386f2fe06266966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/StairsSliced.fbx using Guid(964d65b44ae2ec84386f2fe06266966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f56d52af7d14dff6645c66216a175ca') in 0.042231 seconds
+  Import took 0.048183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/GreyboxAssets/Stairs.fbx
+  artifactKey: Guid(29cfac9a1c8b244499bc4f1ac5967c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Stairs.fbx using Guid(29cfac9a1c8b244499bc4f1ac5967c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f225d90c5d6e1ed1467a387cce3ffb') in 0.039454 seconds
+  Import took 0.046901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/GreyboxAssets/PlaceholderChar.fbx
+  artifactKey: Guid(b646376a23f0c7d45ad1e8558e3fcc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/PlaceholderChar.fbx using Guid(b646376a23f0c7d45ad1e8558e3fcc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508752f7d9e206d52ef26321ec8ca0c5') in 0.120180 seconds
+  Import took 0.128471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/GreyboxAssets/Rock2.fbx
+  artifactKey: Guid(0415f63bfc03a134d950483ec8dd96e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Rock2.fbx using Guid(0415f63bfc03a134d950483ec8dd96e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa5f7209b65c34b26a1135de48c7f9d') in 0.044672 seconds
+  Import took 0.051626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/GreyboxAssets/Rock4.fbx
+  artifactKey: Guid(5e6fb18c3c5858c41960ee799aa393bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Rock4.fbx using Guid(5e6fb18c3c5858c41960ee799aa393bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067031dabc16d68f405944c51dbb5aa4') in 0.042455 seconds
+  Import took 0.048757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/GreyboxAssets/Pillar.fbx
+  artifactKey: Guid(1810af5898db75746935f5f76b3403fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Pillar.fbx using Guid(1810af5898db75746935f5f76b3403fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3b6f82436143b1678d458a86e3f022') in 0.039129 seconds
+  Import took 0.044403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/GreyboxAssets/Rock3.fbx
+  artifactKey: Guid(d749eca7dfed96e4f80996905470177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Rock3.fbx using Guid(d749eca7dfed96e4f80996905470177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18270069e9c3758e5a3ae2f1a5394087') in 0.044677 seconds
+  Import took 0.050603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/GreyboxAssets/Tree.fbx
+  artifactKey: Guid(7971c16db40b04741881c162ec1ee5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Tree.fbx using Guid(7971c16db40b04741881c162ec1ee5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81eaf84e98ead9f2750f7dbac8791382') in 0.040518 seconds
+  Import took 0.046943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/GreyboxAssets/PillarSliced.fbx
+  artifactKey: Guid(87559a8308c3eb14dbc62dccbefeef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/PillarSliced.fbx using Guid(87559a8308c3eb14dbc62dccbefeef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76b389370d20ba14ddcf15e8158c826') in 0.038812 seconds
+  Import took 0.044362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/GreyboxAssets/Floor.fbx
+  artifactKey: Guid(10d1a2b6668f94642a6a964cfc723d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Floor.fbx using Guid(10d1a2b6668f94642a6a964cfc723d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfa8842f3c0cdb901a3b27820064c4d') in 0.041434 seconds
+  Import took 0.047596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.174110 seconds.
+  path: Assets/Simon/Rock.mat
+  artifactKey: Guid(0b356e338c7632d44b15da834ceccecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Rock.mat using Guid(0b356e338c7632d44b15da834ceccecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b66fe682fa533f10a2f5f787dddc35') in 0.031774 seconds
+  Import took 0.038229 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.415 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.5 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3975.
+Total: 2.687000 ms (FindLiveObjects: 0.440400 ms CreateObjectMapping: 0.203400 ms MarkObjects: 2.021400 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
