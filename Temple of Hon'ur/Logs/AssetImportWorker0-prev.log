@@ -15,11 +15,11 @@ C:/Users/simon/Desktop/Temple-of-Hon-ur/Temple of Hon'ur
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54010
+53176
 Successfully changed project path to: C:/Users/simon/Desktop/Temple-of-Hon-ur/Temple of Hon'ur
 C:/Users/simon/Desktop/Temple-of-Hon-ur/Temple of Hon'ur
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 91.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 93.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,231 +35,207 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002650 seconds.
+Registered in 0.002367 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 79.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.345 seconds
+- Completed reload, in  1.329 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002087 seconds.
+Registered in 0.003955 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 93.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 HDRP Internally changed the storage of Cube Cookie to use Octahedral Projection inside the 2D Cookie Atlas. It is recommended that you increase the size of the 2D Cookie Atlas if your cookies no longer fit.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__110_12 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:126)
-UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationStep.cs:52)
-UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationDescription.cs:101)
-UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable () (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:146)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__110_12 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:126)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationDescription.cs:101)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable () (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:146)
 UnityEngine.Rendering.GraphicsSettings:get_currentRenderPipeline ()
-UnityEditor.Rendering.HighDefinition.HDBakedReflectionSystem:Initialize () (at C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Editor/Lighting/Reflection/HDBakedReflectionSystem.cs:42)
+UnityEditor.Rendering.HighDefinition.HDBakedReflectionSystem:Initialize () (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Editor/Lighting/Reflection/HDBakedReflectionSystem.cs:42)
 
-(Filename: C:/Users/simon/Desktop/FuckUP/ArtDirection01PlanetJunk/Temple of Hon'ur/Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs Line: 126)
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs Line: 126)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.618 seconds
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.514 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3341 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.3 MB.
-System memory in use after: 167.5 MB.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.9 MB.
+System memory in use after: 169.1 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3799.
-Total: 3.049900 ms (FindLiveObjects: 0.390600 ms CreateObjectMapping: 0.241800 ms MarkObjects: 2.359300 ms  DeleteObjects: 0.057300 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3814.
+Total: 2.961400 ms (FindLiveObjects: 0.462600 ms CreateObjectMapping: 0.291700 ms MarkObjects: 2.123600 ms  DeleteObjects: 0.082000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Simon/Rock.mat
-  artifactKey: Guid(0b356e338c7632d44b15da834ceccecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Rock.mat using Guid(0b356e338c7632d44b15da834ceccecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
- -> (artifact id: '2bd05e5ebddebb076ac66a683528d90f') in 1.459625 seconds
-  Import took 1.468281 seconds .
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineResources.asset
+  artifactKey: Guid(3ce144cff5783da45aa5d4fdc2da14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineResources.asset using Guid(3ce144cff5783da45aa5d4fdc2da14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7816f411054fefa3e9b94721dd3e3113') in 0.044048 seconds
+  Import took 0.051047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineRayTracingResources.asset
+  artifactKey: Guid(ba6e7f30e5cffc249a8bf7ee5756c196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineRayTracingResources.asset using Guid(ba6e7f30e5cffc249a8bf7ee5756c196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fa3dcdfeb0f55d51dbb16667aae221') in 0.021909 seconds
+  Import took 0.029254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipelineResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(f940a8037e6cda542891dc1aac1fa4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipelineResources/DefaultSettingsVolumeProfile.asset using Guid(f940a8037e6cda542891dc1aac1fa4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56ca8bdf1b05eaaa879f6da88e14bef') in 0.004037 seconds
+  Import took 0.011598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Foliage Diffusion Profile.asset
+  artifactKey: Guid(2384dbf2c1c420f45a792fbc315fbfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Foliage Diffusion Profile.asset using Guid(2384dbf2c1c420f45a792fbc315fbfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044a154df18701a4d57ca8759bb65f07') in 0.003878 seconds
+  Import took 0.011371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/defaultDiffusionProfile.asset
+  artifactKey: Guid(2b7005ba3a4d8474b8cdc34141ad766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/defaultDiffusionProfile.asset using Guid(2b7005ba3a4d8474b8cdc34141ad766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63e3d9f98a682bbb5ddf0093eec00a8') in 0.003766 seconds
+  Import took 0.011420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipelineResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(254c4fe87beb7be4fa72e1681edbed02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipelineResources/DefaultLookDevProfile.asset using Guid(254c4fe87beb7be4fa72e1681edbed02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9a945e298adfded5b95870e40b9f78') in 0.003187 seconds
+  Import took 0.008888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Skin Diffusion Profile.asset
+  artifactKey: Guid(404820c4cf36ad944862fa59c56064f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Skin Diffusion Profile.asset using Guid(404820c4cf36ad944862fa59c56064f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47de9ccf41c1b3a85a87f205be0e9152') in 0.003135 seconds
+  Import took 0.010669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipelineResources/HDRenderPipelineEditorResources.asset
+  artifactKey: Guid(bf65aa0c6e3e70c4c8b484c4ddac473e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipelineResources/HDRenderPipelineEditorResources.asset using Guid(bf65aa0c6e3e70c4c8b484c4ddac473e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340173c89de285948cd5ca36539a4a3b') in 0.021393 seconds
+  Import took 0.030187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.755239 seconds.
+  path: Assets/Settings/Foliage.asset
+  artifactKey: Guid(78322c7f82657514ebe48203160e3f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Foliage.asset using Guid(78322c7f82657514ebe48203160e3f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce37e0ea4d7680a05d8c2ee7592d215') in 0.004616 seconds
+  Import took 0.011709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Settings/HDRenderPipelineAsset.asset
+  artifactKey: Guid(3e2e6bfc59709614ab90c0cd7d755e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/HDRenderPipelineAsset.asset using Guid(3e2e6bfc59709614ab90c0cd7d755e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) HDRP Internally changed the storage of Cube Cookie to use Octahedral Projection inside the 2D Cookie Atlas. It is recommended that you increase the size of the 2D Cookie Atlas if your cookies no longer fit.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__110_12 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:126)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationDescription.cs:101)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable () (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:146)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs Line: 126)
+
+ -> (artifact id: 'bd676f80d0fb4558bff9ff7c72907a6c') in 0.005600 seconds
+  Import took 0.012256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Settings/Skin.asset
+  artifactKey: Guid(26bdddf49760c61438938733f07fa2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Skin.asset using Guid(26bdddf49760c61438938733f07fa2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254489496de36e14bc16ca66b61125d9') in 0.003841 seconds
+  Import took 0.009980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Settings/SampleSceneSkyandFogSettings.asset
+  artifactKey: Guid(a123fc0ac58cb774e8592c925f167e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneSkyandFogSettings.asset using Guid(a123fc0ac58cb774e8592c925f167e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce809fa4d47411f2206480d349f96549') in 0.007923 seconds
+  Import took 0.012965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Settings/SampleScenePostProcessingSettings.asset
+  artifactKey: Guid(183cbd347d25080429f42b520742bbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleScenePostProcessingSettings.asset using Guid(183cbd347d25080429f42b520742bbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c09ba218a5afeb5d2211ac4d16bf36') in 0.006646 seconds
+  Import took 0.011877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1106.137112 seconds.
+  path: Assets/Settings/HDRenderPipelineAsset.asset
+  artifactKey: Guid(3e2e6bfc59709614ab90c0cd7d755e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/HDRenderPipelineAsset.asset using Guid(3e2e6bfc59709614ab90c0cd7d755e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7bca7f20e2c4aa26c2d8de213c31ca') in 0.007570 seconds
+  Import took 0.015472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.666003 seconds.
+  path: Assets/Simon/Simon_Scene/Sky and Fog Settings Profile 1.asset
+  artifactKey: Guid(e181f54f750144243abcbb044ce38868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Simon_Scene/Sky and Fog Settings Profile 1.asset using Guid(e181f54f750144243abcbb044ce38868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9dd56ce69dd5da13e444f34929a2e4') in 0.014318 seconds
+  Import took 0.022809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Simon/Simon_Scene/Sky and Fog Settings Profile.asset
+  artifactKey: Guid(de756de08c12d184382a998d56e88c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Simon_Scene/Sky and Fog Settings Profile.asset using Guid(de756de08c12d184382a998d56e88c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd76a273299efe6c2a31c5ff00996e20') in 0.003029 seconds
+  Import took 0.008406 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.029038 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  1.434 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.5 MB.
-System memory in use after: 165.7 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3986.
-Total: 3.367100 ms (FindLiveObjects: 0.474800 ms CreateObjectMapping: 0.306500 ms MarkObjects: 2.543600 ms  DeleteObjects: 0.040900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 288.692797 seconds.
-  path: Assets/HDRPDefaultResources/DefaultHDRISky.exr
-  artifactKey: Guid(54a3a0570aebe8949bec4966f1376581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/DefaultHDRISky.exr using Guid(54a3a0570aebe8949bec4966f1376581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42420a577570a8dfcff6656b6ba80804') in 0.061484 seconds
-  Import took 0.067235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/HDRPDefaultResources/HDRPDefaultSettings.asset
-  artifactKey: Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/HDRPDefaultSettings.asset using Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5248af22ff4d4c67f91e7b13b5fcfc') in 0.007031 seconds
-  Import took 0.011974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/HDRPDefaultResources/DefaultSceneRoot.prefab
-  artifactKey: Guid(dcdb70cca09b4244dacd6fc0bcee8d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/DefaultSceneRoot.prefab using Guid(dcdb70cca09b4244dacd6fc0bcee8d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c0b1a481ebad0d8733db54242ae0c9') in 0.025018 seconds
-  Import took 0.030188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 462.265411 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition-config/package.json
-  artifactKey: Guid(af6e0e6bb9a468845bfb9c9381e3219b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition-config/package.json using Guid(af6e0e6bb9a468845bfb9c9381e3219b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e1805a6d2e592a51d7194becbc5726') in 0.016001 seconds
-  Import took 0.024567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.654735 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/package.json
-  artifactKey: Guid(6f54db4299717fc4ca37866c6afa0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/package.json using Guid(6f54db4299717fc4ca37866c6afa0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f233574540290899c9ffb4284c9d884b') in 0.007842 seconds
-  Import took 0.019464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.607516 seconds.
-  path: Assets/HDRPDefaultResources/HDRPDefaultSettings.asset
-  artifactKey: Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/HDRPDefaultSettings.asset using Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c9be3c6e75f4e7eea89e622462c5df') in 0.005870 seconds
-  Import took 0.011703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016515 seconds.
-  path: Assets/HDRPDefaultResources/HDRPDefaultSettings.asset
-  artifactKey: Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/HDRPDefaultSettings.asset using Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c9be3c6e75f4e7eea89e622462c5df') in 0.003216 seconds
-  Import took 0.009203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 325.794348 seconds.
-  path: Assets/Simon/Test material
-  artifactKey: Guid(fbebc9292ded1304bb467553b9a25342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material using Guid(fbebc9292ded1304bb467553b9a25342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aaece4e550bc46fe62e189bd567ded7') in 0.002453 seconds
-  Import took 0.010347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.904511 seconds.
-  path: Assets/Simon/Test material/Allbedo.png
-  artifactKey: Guid(48ff5380a2d49554db216971e38c255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material/Allbedo.png using Guid(48ff5380a2d49554db216971e38c255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f2c0838a4bd790a7be620aca4093f6') in 0.032100 seconds
-  Import took 0.039135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Simon/Test material/ZRock3_Low_PM3D_Rock3_3-Decimatet_default_MetallicSmoothness.png
-  artifactKey: Guid(f250d29b6bab38546b32d24a55366489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material/ZRock3_Low_PM3D_Rock3_3-Decimatet_default_MetallicSmoothness.png using Guid(f250d29b6bab38546b32d24a55366489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538cd39cdd609cd58598a3a7534770ec') in 0.012746 seconds
-  Import took 0.018347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Simon/Test material/ZRock3_Low_PM3D_Rock3_3-Decimatet_default_Normal.png
-  artifactKey: Guid(f3f3342f5e7622749b7d5cd8970edb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material/ZRock3_Low_PM3D_Rock3_3-Decimatet_default_Normal.png using Guid(f3f3342f5e7622749b7d5cd8970edb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cfb3e67311f166d961f28a618125ee') in 0.013990 seconds
-  Import took 0.020492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Simon/Test material/Normal.png
-  artifactKey: Guid(4cd63179cd14bc044b8ebbacc4a37527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material/Normal.png using Guid(4cd63179cd14bc044b8ebbacc4a37527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ba7657e78527ae3612c78c21f075d5') in 0.017131 seconds
-  Import took 0.028616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Simon/Test material/Mask.png
-  artifactKey: Guid(6b0cffffadc56cf48abf9d1c1ec3ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material/Mask.png using Guid(6b0cffffadc56cf48abf9d1c1ec3ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cef647e2eb9f63c6773c9fbb971dfe') in 0.022535 seconds
-  Import took 0.031719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Simon/Test material/ZRock3_Low_PM3D_Rock3_3-Decimatet_default_AlbedoTransparency.png
-  artifactKey: Guid(801c245eff2e27942ad1eb5e8fa9cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material/ZRock3_Low_PM3D_Rock3_3-Decimatet_default_AlbedoTransparency.png using Guid(801c245eff2e27942ad1eb5e8fa9cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5431672c354899615e6ddeb93dffe52') in 0.008409 seconds
-  Import took 0.015283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.426596 seconds.
-  path: Assets/Simon/Test material/Rock1.mat
-  artifactKey: Guid(82d37542a184e404bbdad4447397c15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material/Rock1.mat using Guid(82d37542a184e404bbdad4447397c15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed63a301b4f05f80cf4001bbd3ee6a8b') in 0.564741 seconds
-  Import took 0.571950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 237.351855 seconds.
-  path: Assets/HDRPDefaultResources/HDRPDefaultSettings.asset
-  artifactKey: Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/HDRPDefaultSettings.asset using Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131b04fe63b4b3445d03a4af3cf0dc32') in 0.003530 seconds
-  Import took 0.010863 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003753 seconds.
+Registered in 0.004195 seconds.
 Begin MonoManager ReloadAssembly
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl.dll
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
@@ -268,119 +244,99 @@ Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl.dll
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  1.409 seconds
+- Completed reload, in  1.177 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.3 MB.
-System memory in use after: 165.5 MB.
+Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.0 MB.
+System memory in use after: 155.2 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4092.
-Total: 3.101000 ms (FindLiveObjects: 0.602400 ms CreateObjectMapping: 0.269500 ms MarkObjects: 2.202400 ms  DeleteObjects: 0.025200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 515.699365 seconds.
-  path: Assets/HDRPDefaultResources/HDRPDefaultSettings.asset
-  artifactKey: Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/HDRPDefaultSettings.asset using Guid(582adbd84082fdb4faf7cd4beb1ccd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eee752afb36aadd0707c54dd3ae4280') in 0.035728 seconds
-  Import took 0.043423 seconds .
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3822.
+Total: 3.295100 ms (FindLiveObjects: 0.352400 ms CreateObjectMapping: 0.236900 ms MarkObjects: 2.462400 ms  DeleteObjects: 0.242200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 128.035857 seconds.
-  path: Assets/Simon/Test material/Rock1.mat
-  artifactKey: Guid(82d37542a184e404bbdad4447397c15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material/Rock1.mat using Guid(82d37542a184e404bbdad4447397c15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba7887ab1f251769e7a38231883cda7') in 0.629879 seconds
-  Import took 0.640383 seconds .
+  Time since last request: 454.791834 seconds.
+  path: Assets/Simon/Simon_Scene/Sky and Fog Settings Profile 1.asset
+  artifactKey: Guid(e181f54f750144243abcbb044ce38868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Simon_Scene/Sky and Fog Settings Profile 1.asset using Guid(e181f54f750144243abcbb044ce38868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66e903b82131c3ca9d5df6a3c6e3bcd') in 0.044677 seconds
+  Import took 0.051294 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.617469 seconds.
-  path: Assets/Simon/Test material/Rock_Textures
-  artifactKey: Guid(15bc660d472401d44960d989c4688f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Test material/Rock_Textures using Guid(15bc660d472401d44960d989c4688f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207f92923465bef00b7425b1dcedf167') in 0.002477 seconds
-  Import took 0.009557 seconds .
+  Time since last request: 47.369360 seconds.
+  path: Assets/Simon/Simon_Scene/Sky and Fog Settings Profile 1.asset
+  artifactKey: Guid(e181f54f750144243abcbb044ce38868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Simon_Scene/Sky and Fog Settings Profile 1.asset using Guid(e181f54f750144243abcbb044ce38868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bd6ac36a1381559f053d80022a196b') in 0.005360 seconds
+  Import took 0.011904 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.466561 seconds.
-  path: Assets/Simon/Simon_Scene.unity
-  artifactKey: Guid(37cfd8b283a1b6146ac11696e82b059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Simon_Scene.unity using Guid(37cfd8b283a1b6146ac11696e82b059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571e90c84f5266a80b8560241848dc76') in 0.003004 seconds
-  Import took 0.009593 seconds .
+  Time since last request: 12.904323 seconds.
+  path: Assets/Simon/Simon_Scene/Sky and Fog Settings Profile 1.asset
+  artifactKey: Guid(e181f54f750144243abcbb044ce38868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon/Simon_Scene/Sky and Fog Settings Profile 1.asset using Guid(e181f54f750144243abcbb044ce38868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3956d841d6fa06f2f8b2db0f87a74d43') in 0.005457 seconds
+  Import took 0.011510 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000721 seconds.
-  path: Assets/Simon/Simon_Scene.unity
-  artifactKey: Guid(37cfd8b283a1b6146ac11696e82b059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Simon_Scene.unity using Guid(37cfd8b283a1b6146ac11696e82b059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571e90c84f5266a80b8560241848dc76') in 0.002762 seconds
-  Import took 0.009452 seconds .
+  Time since last request: 727.805633 seconds.
+  path: Assets/GreyboxAssets/Greybox_Materials
+  artifactKey: Guid(a1063eb13c0735f44962bd9d87c47cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Greybox_Materials using Guid(a1063eb13c0735f44962bd9d87c47cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f8f52711878f8f40bdd545bf440c5') in 0.002646 seconds
+  Import took 0.009449 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.634669 seconds.
-  path: Assets/Simon/Rock_Textures/Textures_Rock3
-  artifactKey: Guid(fbebc9292ded1304bb467553b9a25342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Rock_Textures/Textures_Rock3 using Guid(fbebc9292ded1304bb467553b9a25342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8810544c8567ecf2d11040a5bcbedc') in 0.002601 seconds
-  Import took 0.009102 seconds .
+  Time since last request: 0.007160 seconds.
+  path: Assets/GreyboxAssets/Greybox_Materials
+  artifactKey: Guid(a1063eb13c0735f44962bd9d87c47cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Greybox_Materials using Guid(a1063eb13c0735f44962bd9d87c47cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f8f52711878f8f40bdd545bf440c5') in 0.001952 seconds
+  Import took 0.007546 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 227.934451 seconds.
-  path: Assets/Simon/Longgras.fbx
-  artifactKey: Guid(b7c3db3554402964da055496de29871f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Longgras.fbx using Guid(b7c3db3554402964da055496de29871f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d63962be79d61ea57aa8af8d637d24') in 9.484050 seconds
-  Import took 9.490761 seconds .
+  Time since last request: 0.052904 seconds.
+  path: Assets/GreyboxAssets/Greybox_Materials/Area1.mat
+  artifactKey: Guid(7da7d1d90595fde47a4e712abf8b3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyboxAssets/Greybox_Materials/Area1.mat using Guid(7da7d1d90595fde47a4e712abf8b3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+ -> (artifact id: 'b6e5160526f550ea113149d553d01a5b') in 1.262074 seconds
+  Import took 1.268605 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 58.948758 seconds.
-  path: Assets/Simon/Longgras.mat
-  artifactKey: Guid(5b92a324987aeaa4a94470a75555c069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Longgras.mat using Guid(5b92a324987aeaa4a94470a75555c069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8fc2cf49fa0c1b81d508067028c298') in 0.027608 seconds
-  Import took 0.035444 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003729 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.4 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 33.931234 seconds.
-  path: Assets/Simon/Grass_diffuse.png
-  artifactKey: Guid(c1b63a1a6df63244582c304839594216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Grass_diffuse.png using Guid(c1b63a1a6df63244582c304839594216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432d9833a3e3908ff70c737ace95ffca') in 0.019074 seconds
-  Import took 0.026779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Simon/Grass_Mask.jpg
-  artifactKey: Guid(2784324ae0fd9144db71e8560d2cbaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Grass_Mask.jpg using Guid(2784324ae0fd9144db71e8560d2cbaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d4d92ce5e043c45fc1a1906a0f67c0') in 0.013989 seconds
-  Import took 0.020212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Simon/Longgras.fbx
-  artifactKey: Guid(b7c3db3554402964da055496de29871f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Longgras.fbx using Guid(b7c3db3554402964da055496de29871f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ba4c02818d7399c0a37472e1f11f34') in 0.091483 seconds
-  Import took 0.097424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.839779 seconds.
-  path: Assets/Simon/Grass_diffuse.png
-  artifactKey: Guid(c1b63a1a6df63244582c304839594216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Grass_diffuse.png using Guid(c1b63a1a6df63244582c304839594216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc07908de935cad0f5c7d7f531450a96') in 0.010650 seconds
-  Import took 0.017259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.887194 seconds.
-  path: Assets/Simon/Grass_diffuse.png
-  artifactKey: Guid(c1b63a1a6df63244582c304839594216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simon/Grass_diffuse.png using Guid(c1b63a1a6df63244582c304839594216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a050d221e9ff2a8b6a2f2667e5196e8b') in 0.012977 seconds
-  Import took 0.019442 seconds .
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3989.
+Total: 2.909300 ms (FindLiveObjects: 0.369400 ms CreateObjectMapping: 0.175300 ms MarkObjects: 2.338800 ms  DeleteObjects: 0.024800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
